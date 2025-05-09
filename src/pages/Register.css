@@ -1,0 +1,71 @@
+/* Register.css */
+body {
+    background-image: url(''); /* Replace with the actual path */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .register-card {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+  }
+  
+  .icon {
+    background: url('https://tse2.mm.bing.net/th?id=OIP.7Yu0qgB0_IxPzoHid4rYHwHaHa&pid=Api&P=0&h=220') no-repeat center;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1rem;
+    border-radius: 50%;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background: #3b5998;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #2d4373;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #3b5998;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
